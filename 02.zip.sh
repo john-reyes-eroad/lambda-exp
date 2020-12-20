@@ -1,0 +1,1 @@
+zip -r function.zip target/lambda-exp-basic-1.0-SNAPSHOT.jar

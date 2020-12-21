@@ -1,1 +1,1 @@
-echo "lambda-exp-xray"
+echo "lambda-exp-xray-slow"

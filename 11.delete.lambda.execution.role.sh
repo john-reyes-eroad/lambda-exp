@@ -1,3 +1,3 @@
 aws iam \
     delete-role \
-    --role-name lambda-exp-basic 
+    --role-name $(./00.0.lambda.name.sh)

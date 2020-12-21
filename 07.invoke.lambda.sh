@@ -1,6 +1,6 @@
 aws lambda \
     invoke \
-    --function-name lambda-exp-basic \
+    --function-name $(./00.0.lambda.name.sh) \
     out \
     --log-type Tail \
     --query 'LogResult' \

@@ -11,10 +11,13 @@ public class Handler implements RequestHandler<Map, String> {
   @Override
   public String handleRequest(Map event, Context context) {
 
+    Service service = new Service();
+
     LambdaLogger logger = context.getLogger();
     
     logger.log("\n");
     logger.log("event=" + event);
+    service.execute(logger);
     logger.log("\n");
     logger.log("\n");
 

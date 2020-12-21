@@ -1,3 +1,3 @@
 aws lambda \
     delete-function \
-    --function-name lambda-exp-basic
+    --function-name $(./00.0.lambda.name.sh)

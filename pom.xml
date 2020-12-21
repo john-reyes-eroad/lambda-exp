@@ -3,7 +3,7 @@
 
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.example</groupId>
-  <artifactId>lambda-exp-xray-slow</artifactId>
+  <artifactId>lambda-exp-xray-move-init</artifactId>
   <packaging>jar</packaging>
   <version>1.0-SNAPSHOT</version>
   

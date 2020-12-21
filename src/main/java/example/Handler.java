@@ -8,10 +8,10 @@ import java.util.Map;
 
 public class Handler implements RequestHandler<Map, String> {
 
+  private final static Service service = new Service();
+
   @Override
   public String handleRequest(Map event, Context context) {
-
-    Service service = new Service();
 
     LambdaLogger logger = context.getLogger();
     

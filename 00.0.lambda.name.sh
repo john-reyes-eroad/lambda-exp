@@ -1,1 +1,1 @@
-echo "lambda-exp-xray-move-init"
+echo "lambda-exp-quarkus"

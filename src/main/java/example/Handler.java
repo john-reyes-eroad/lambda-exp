@@ -4,8 +4,10 @@ import com.amazonaws.services.lambda.runtime.Context;
 import com.amazonaws.services.lambda.runtime.RequestHandler;
 import com.amazonaws.services.lambda.runtime.LambdaLogger;
 
+import javax.inject.Named;
 import java.util.Map;
 
+@Named("handler")
 public class Handler implements RequestHandler<Map, String> {
 
   private final static Service service = new Service();
